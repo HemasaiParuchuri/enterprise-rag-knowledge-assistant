@@ -1,0 +1,5 @@
+# Semantic embeddings upgrade (large download — not needed for the demo)
+# Enable with: USE_SBERT=1 uvicorn app.main:app --port 8000
+sentence-transformers>=2.6
+faiss-cpu>=1.8
+numpy>=1.26
