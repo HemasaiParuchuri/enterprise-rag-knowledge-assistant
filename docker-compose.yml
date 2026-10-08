@@ -1,0 +1,13 @@
+services:
+  api:
+    build: .
+    ports: ["8000:8000"]
+    environment: ["USE_SBERT=${USE_SBERT:-0}"]
+  ui:
+    image: python:3.11-slim
+    working_dir: /code
+    command: sh -c "pip install -q streamlit requests && streamlit run ui/streamlit_app.py --server.port 8501 --server.address 0.0.0.0"
+    volumes: [".:/code"]
+    ports: ["8501:8501"]
+    environment: ["RAG_API_URL=http://api:8000"]
+    depends_on: [api]
