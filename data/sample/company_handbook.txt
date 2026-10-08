@@ -1,0 +1,16 @@
+Acme Corp Employee Handbook (Sample Document)
+
+Vacation and Paid Time Off
+Full-time employees receive 20 vacation days per year in addition to public holidays. Vacation days accrue monthly and up to 5 unused days can be carried over into the next calendar year. Employees must request vacation at least two weeks in advance through the HR portal, and manager approval is required for any absence longer than five consecutive working days.
+
+Remote Work Policy
+Employees may work remotely up to three days per week. Fully remote roles are marked as remote in the job description. Employees working remotely must be available during core hours from 10 AM to 3 PM in their local time zone and must use the company VPN when accessing internal systems.
+
+Health Benefits
+The company offers medical, dental, and vision insurance starting on the first day of employment. Acme Corp covers 80 percent of the medical premium for employees and 60 percent for dependents. Enrollment for new employees must be completed within 30 days of the start date.
+
+Onboarding
+New employees receive a laptop, a buddy assignment, and a 30-60-90 day plan during their first week. All new hires must complete security awareness training and data privacy training within their first 14 days.
+
+Expense Policy
+Business expenses up to 75 dollars can be approved by a direct manager. Expenses above 75 dollars require director approval. Receipts must be submitted within 30 days through the finance system, and travel expenses must be pre-approved before booking.
