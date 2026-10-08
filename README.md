@@ -98,6 +98,3 @@ Python · FastAPI · Pydantic · Sentence-Transformers (optional) · FAISS-ready
 
 **Hema Sai Paruchuri** — Machine Learning Engineer (Python, ML/GenAI, FastAPI, Docker) · MS Computer Science, Southern Illinois University Edwardsville
 
-## License
-
-MIT — see [LICENSE](LICENSE).
