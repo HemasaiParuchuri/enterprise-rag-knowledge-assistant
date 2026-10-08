@@ -1,0 +1,13 @@
+Machine Learning Glossary (Sample Document)
+
+Retrieval Augmented Generation
+Retrieval Augmented Generation, usually shortened to RAG, is a technique where a language model answers questions using documents retrieved from a knowledge base instead of relying only on its training data. A typical RAG pipeline chunks documents, converts chunks into embeddings, stores them in a vector database, retrieves the most relevant chunks for a question, and passes those chunks to the model as context. RAG reduces hallucination because answers are grounded in retrieved sources that can be cited.
+
+Embeddings and Vector Databases
+Embeddings are dense numeric vectors that represent the meaning of text. Similar texts produce vectors that are close together, usually measured with cosine similarity. Vector databases such as FAISS, Qdrant, and Pinecone store embeddings and support fast nearest neighbour search over millions of chunks.
+
+Chunking
+Chunking means splitting long documents into smaller pieces before indexing. Common settings are chunk sizes of 500 to 1000 characters or tokens with an overlap of 10 to 20 percent, so that an answer split across a boundary is not lost. Chunk size is a trade-off: smaller chunks retrieve more precisely, larger chunks preserve more context.
+
+Model Evaluation
+Retrieval quality is commonly measured with Recall at K and Top K accuracy: whether the correct chunk appears in the first K retrieved results. Generation quality can be measured with faithfulness checks that verify every claim in the answer is supported by a retrieved source.
